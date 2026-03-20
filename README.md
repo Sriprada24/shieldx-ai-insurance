@@ -84,4 +84,5 @@ The current prototype includes risk score calculation, weekly premium generation
 
 Conclusion:-
 
-ShieldX provides a simple and practical solution to protect the income of delivery workers. By using automation and basic AI logic, the system removes the need for manual claims and ensures quick financial support during difficult situations.
+ShieldX provides a simple and practical solution to protect the income of delivery workers. By using automation and basic AI logic, the system removes the need for manual claims and ensures quick financial support during difficult situations. 
+In future, this can be enhanced using real machine learning models for prediction and smarter fraud detection.
