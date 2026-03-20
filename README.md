@@ -1,88 +1,70 @@
-ShieldX – AI-Based Income Protection for Delivery Workers
+# Getting Started with Create React App
 
-ShieldX is an AI-powered parametric insurance platform designed to protect the income of delivery workers from external disruptions.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Problem:- 
+## Available Scripts
 
-In today’s fast-growing gig economy, delivery partners such as those working for Swiggy, Zomato, and other platforms depend completely on daily work to earn money. However, their income is highly affected by external factors like heavy rain, pollution, or sudden curfews. During such situations, they are unable to work and end up losing a significant portion of their earnings. At present, there is no proper system that protects their income during these unavoidable disruptions.
+In the project directory, you can run:
 
-Our Idea:-
+### `npm start`
 
-To solve this problem, we developed ShieldX, a simple AI-based insurance platform that focuses only on protecting the income of delivery workers. Instead of traditional insurance, our system automatically detects external disruptions and provides compensation without requiring the user to manually file a claim.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Persona Scenario:-
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Let us consider a delivery partner named Ravi. He usually works around 10 hours a day and earns approximately ₹800. On a day with heavy rain, he is unable to work for several hours and loses almost half of his daily income. With ShieldX, the system detects the rain condition and automatically provides a payout to compensate for his lost income.
+### `npm test`
 
-How the System Works:-
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The workflow of our system is very simple and user-friendly. First, the delivery partner registers on the platform. The system then evaluates environmental conditions such as weather and pollution levels. Based on this, it calculates a risk score. Using this score, a weekly premium is generated. The system continuously monitors for disruptions, and whenever a condition like heavy rain occurs, it automatically triggers a claim and provides an instant payout to the user.
+### `npm run build`
 
-Weekly Premium Model:-
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Our pricing model is designed according to the weekly earning pattern of gig workers. We start with a base premium of ₹50 per week and add a small amount based on the calculated risk. For example, if the risk score is 70, the premium becomes ₹85 per week. This makes the system affordable and practical for delivery workers.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Innovation:-
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Fully automated claim system (no manual request)
-Real-time disruption detection
-Weekly pricing tailored for gig workers
+### `npm run eject`
 
-Parametric Triggers:-
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Instead of manual claim requests, our system uses predefined conditions to trigger claims. These include heavy rainfall, high pollution levels, and restricted movement due to curfews. Once any of these conditions crosses a certain limit, the system automatically approves the claim and initiates the payout.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-AI Integration:-
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Although this is a prototype, we have simulated AI-based decision-making in the system. The application calculates a risk score using environmental data and adjusts the premium accordingly. It also includes basic fraud detection by checking user location and preventing duplicate claims. In future versions, this can be enhanced using real machine learning models.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Platform Choice:-
+## Learn More
 
-We chose to build this as a web application because it is easy to access, faster to develop within the hackathon time, and does not require installation. It can be used on both mobile and desktop devices.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Flowchart:-
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Start  
-↓  
-User Opens App  
-↓  
-Register / Login  
-↓  
-Collect Data (Weather + Pollution)  
-↓  
-Calculate Risk Score  
-↓  
-Generate Weekly Premium  
-↓  
-User Buys Policy  
-↓  
-Monitor Conditions  
-↓  
-Disruption Occurred?  
-→ No → Continue Monitoring  
-→ Yes → Trigger Claim  
-↓  
-Fraud Check  
-↓  
-Claim Approved  
-↓  
-Instant Payout  
-↓  
-End  
+### Code Splitting
 
-Tech Stack:-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-For the frontend, we used React along with HTML and CSS to build a simple and interactive user interface. The backend logic is currently simulated using JavaScript. External APIs such as weather services are mocked for demonstration purposes.
+### Analyzing the Bundle Size
 
-Development Plan:-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-In this phase, we focused on building the basic idea, designing the user interface, and implementing core features like risk calculation, premium generation, and claim simulation. In future phases, we plan to integrate real APIs, improve the AI model, add payment gateways, and build a detailed analytics dashboard.
+### Making a Progressive Web App
 
-Key Features Implemented:-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-The current prototype includes risk score calculation, weekly premium generation, automatic claim simulation based on rain conditions, and a simple dashboard for user interaction.
+### Advanced Configuration
 
-Conclusion:-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-ShieldX provides a simple and practical solution to protect the income of delivery workers. By using automation and basic AI logic, the system removes the need for manual claims and ensures quick financial support during difficult situations. 
-In future, this can be enhanced using real machine learning models for prediction and smarter fraud detection.
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
