@@ -12,7 +12,7 @@ To solve this problem, we developed ShieldX, a simple AI-based insurance platfor
 
 Persona Scenario:-
 
-Let us consider a delivery partner named Ravi. He usually works around 10 hours a day and earns approximately ₹800. On a day with heavy rain, he is unable to work for several hours and loses almost half of his daily income. With ShieldX, the system detects the rain condition and automatically provides a payout to compensate for his lost income.
+Let us consider a delivery partner named Vivek. He usually works around 10 hours a day and earns approximately ₹800. On a day with heavy rain, he is unable to work for several hours and loses almost half of his daily income. With ShieldX, the system detects the rain condition and automatically provides a payout to compensate for his lost income.
 
 How the System Works:-
 
