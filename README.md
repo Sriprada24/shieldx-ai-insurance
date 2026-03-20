@@ -86,7 +86,7 @@ In this phase, we focused on building the basic idea, designing the user interfa
 - Add payment system  
 - Build mobile app  
 - Add detailed dashboard
-- 
+  
 Conclusion:-
 
 ShieldX provides a simple and practical solution to protect the income of delivery workers. By using automation and basic AI logic, the system removes the need for manual claims and ensures quick financial support during difficult situations. 
